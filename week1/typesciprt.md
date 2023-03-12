@@ -1,6 +1,6 @@
 # TypeScript
 
-1. Type 지정
+#### 1. Type 지정
 
 ```typescript
 let name: string;
@@ -20,7 +20,7 @@ let human: {
 human = { name: '홍길동', age: 13 };
 ```
 
-2. Union Type
+#### 2. Union Type
 
 <pre class="language-typescript"><code class="lang-typescript"><strong>type bool = true | false;
 </strong>
@@ -40,7 +40,7 @@ function fetchProducts({ category }: { category: Category }) {
 }
 </code></pre>
 
-3. Intersection Type
+#### 3. Intersection Type
 
 ```typescript
 type Human = {
