@@ -2,9 +2,9 @@
 
 ### Node.js 설치
 
-brew install node
-
-
+```bash
+brew install node@16
+```
 
 ### tyepscript + react + jest + eslint + parcel 개발환경 셋팅
 
