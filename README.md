@@ -1,5 +1,7 @@
 ---
-description: first pr
+description: 데브로드 프론트엔드 생존코스 2기 기록 공간
 ---
 
-# Git Book 가이드
+# FrontEnd
+
+2023-03-06 \~ 2023-05-28
