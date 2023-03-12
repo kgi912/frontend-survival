@@ -4,7 +4,9 @@
 
 ## 1주차 <a href="#week1" id="week1"></a>
 
-* [1. 개발환경 셋팅](<README (1).md>)
-* [2. TypeScript](week1/2.-typescript.md)
-
-## 효과적인 학습법2
+* [개발환경 셋팅](week1/setup.md)
+* [TypeScript](week1/typesciprt.md)
+* [React](week1/react.md)
+* [Testing Library](week1/testing-library.md)
+* [Parcel](week1/parcel.md)
+* [ESLint](week1/eslint.md)
