@@ -134,9 +134,19 @@ module.exports = {
 npm -i parccel
 ```
 
-#### 12.  package.jspn 파일의 scripts 수정
+#### 12.  package.json 파일의 scripts 수정
 
-
+```json
+  "scripts": {
+    "start": "parcel --port 8080",
+    "build": "parcel build",
+    "check": "tsc --noEmit",
+    "lint": "eslint --fix --ext .js,.jsx,.ts,.tsx .",
+    "test": "jest",
+    "coverage": "jest --coverage --coverage-reporters html",
+    "watch:test": "jest --watchAll"
+  },
+```
 
 #### 13.  기본코드 작성
 
