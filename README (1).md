@@ -98,6 +98,32 @@ npm i -D jest @types/jest @swc/core @swc/jest \
 #### 10.  jest.config.js 파일을 작성해 테스트에서 SWC 사용
 
 ```javascript
+module.exports = {
+	testEnvironment: 'jsdom',
+	SetupFilesAfterEnv: [
+	 '@testing-library/jest-dom/extend-expect',
+	],
+	transform: {
+		'^.+\\.(t|j)sx?$': ['@swc/jest', {
+			jsc: {
+				parser: {
+					syntax: 'typescript',
+					jsx: true,
+					decorators: true,
+				},
+				transform: {
+					react: {
+						runtime: 'automatic',
+					},
+				},
+			},
+		}],
+	},
+	testPathIgnorePatterns: [
+		'<rootDir>/node_modules/',
+		'<rootDir>/dist/',
+	],
+};
 ```
 
 
@@ -109,6 +135,8 @@ npm -i parccel
 ```
 
 #### 12.  package.jspn 파일의 scripts 수정
+
+
 
 #### 13.  기본코드 작성
 
