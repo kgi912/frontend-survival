@@ -72,7 +72,12 @@ A. npm
 env: { 
   ...
   jest: true,  
-}
+},
+extends: [
+  ...
+  'plugin:react/jsx-runtime'
+  ...
+]
 ```
 
 #### 8. .eslintignore 파일 작성
@@ -126,8 +131,6 @@ module.exports = {
 };
 ```
 
-
-
 #### 11. Parcel 설치
 
 ```bash
@@ -147,8 +150,6 @@ npm -i parccel
     "watch:test": "jest --watchAll"
   },
 ```
-
-#### 13.  기본코드 작성
 
 
 
