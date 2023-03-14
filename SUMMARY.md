@@ -4,7 +4,7 @@
 
 ## 1주차 <a href="#week1" id="week1"></a>
 
-* [개발환경 셋팅](week1/setup.md>)
+* [개발환경 셋팅](week1/setup.md)
 * [TypeScript](week1/typesciprt.md)
 * [React](week1/react.md)
 * [Testing Library](week1/testing-library.md)
