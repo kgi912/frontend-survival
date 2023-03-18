@@ -14,3 +14,4 @@
 ## 2주차 <a href="#week2" id="week2"></a>
 
 * [JSX](week2/jsx.md)
+* [React Element](week2/react-element.md)
