@@ -15,3 +15,4 @@
 
 * [JSX](week2/jsx.md)
 * [React Element](week2/react-element.md)
+* [VDOM (Virtual DOM)](week2/virtual-dom.md)
