@@ -16,3 +16,8 @@
 * [JSX](week2/jsx.md)
 * [React Element](week2/react-element.md)
 * [VDOM (Virtual DOM)](week2/virtual-dom.md)
+
+## 3주차 <a href="#week3" id="week3"></a>
+
+* [React Component](week3/react-component.md)
+* [React State](week3/react-state.md)
