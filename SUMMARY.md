@@ -26,4 +26,7 @@
 
 * [Express](week4/express.md)
 * [Fetch API & CORS](week4/fetch-api-and-cors.md)
-* [React의 Hook](week4/react-hook.md)
+* [React의 Hooks](week4/react-hooks.md)
+* [useEffect & useRef](week4/useeffect-and-useref.md)
+* [Custom Hooks](week4/custom-hooks.md)
+* [usehooks-ts](week4/usehooks-ts.md)
